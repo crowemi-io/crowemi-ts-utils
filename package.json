@@ -10,6 +10,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "react": "^19.0.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10"
   }
 }
