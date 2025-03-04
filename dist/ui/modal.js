@@ -1,4 +1,5 @@
 import React from 'react';
+import "tailwindcss";
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, } from "@headlessui/react";
 import { CheckIcon, ExclamationCircleIcon, ExclamationTriangleIcon, } from "@heroicons/react/24/outline";
 export var ModalType;

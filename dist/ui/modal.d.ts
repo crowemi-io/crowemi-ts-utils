@@ -1,4 +1,5 @@
 import React from 'react';
+import "tailwindcss";
 export declare enum ModalType {
     Success = 0,
     Error = 1,
