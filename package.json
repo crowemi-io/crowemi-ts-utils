@@ -1,0 +1,35 @@
+{
+  "name": "crowemi-ts-utils",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/crowemi-ts-utils.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --p ./tsconfig-lib.json && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.11",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.11"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@types/react": "^19.0.10",
+    "@types/node": "^22.13.9",
+    "@types/react-dom": "^19.0.4"
+  }
+}
