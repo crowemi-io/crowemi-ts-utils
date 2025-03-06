@@ -1,2 +1,2 @@
-export { Modal } from './Modal';
-export type { ModalType, IModalProps } from './Modal';
+export { Modal, ModalType } from './Modal';
+export type { IModalProps } from './Modal';
