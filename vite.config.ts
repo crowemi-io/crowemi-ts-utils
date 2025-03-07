@@ -14,10 +14,14 @@ export default defineConfig({
     copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, 'lib/components/main.ts'),
-      formats: ['es']
+      formats: ['es'],
+      fileName: (format) => `crowemi-ts-utils.${format}.js`
     },
     rollupOptions: {
-        external: ['react', 'react/jsx-runtime', 'tailwindcss', '@types/react'],
+      external: ['react', 'react/jsx-runtime', 'tailwindcss', '@types/react'],
+      output: {
+        assetFileNames: 'crowemi-ts-utils.css'
+      }
     }
   }
 })
